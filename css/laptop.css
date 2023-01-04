@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+body {
+  box-sizing: border-box;
+  width: 1400px;
+}
+i {
+  color: #0475f7;
+}
+
+#nav-bar {
+  text-align: center;
+}
+header {
+  height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.678)),
+    url("../images/banner.jpg");
+  background-size: cover;
+}
+article {
+  color: rgba(0, 0, 0, 0.712);
+}
+.banner-name {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.image {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 20px;
+  height: 22px;
+  transform: scale(6);
+}
+
+.banner-name h1 {
+  font-size: 50px;
+}
+.container-bar {
+  display: grid;
+  grid-template-columns: repeat(6, 140px);
+  justify-content: center;
+}
+.container-bar a {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  padding-top: 16px;
+  border-right: 1px solid rgba(128, 128, 128, 0.1);
+  border-left: 1px solid rgba(128, 128, 128, 0.1);
+}
+.name {
+  grid-column: 3 / 5;
+  grid-row: 1/2;
+}
+li {
+  list-style: none;
+}
+
+h5 {
+  text-transform: uppercase;
+}
+
+/* Thông tin cá nhân */
+
+.info span {
+  font-weight: 600;
+}
+.info li {
+  padding-bottom: 10px;
+}
+
+/* Kinh nghiệm */
+
+.setups i {
+  font-size: 45px;
+  color: #8080809c;
+}
+.container-article li {
+  position: relative;
+}
+
+.container-article li::before {
+  content: "";
+  background-color: #0475f7;
+  border: 0.3em solid #0475f7;
+  height: 1.5px;
+  border-radius: 100%;
+  position: absolute;
+  top: 6px;
+  left: -40px;
+}
+.time {
+  font-style: italic;
+}
+#time::after {
+  content: "Hiện tại";
+  padding: 1px 10px;
+  margin-left: 5px;
+  background-color: #0475f7;
+  color: #fff;
+  border-radius: 6px;
+}
+/* kỹ năng */
+
+.borders span {
+  display: inline-block;
+  background-color: #0475f7;
+  width: 55px;
+  height: 3px;
+  margin-right: 10px;
+}
+#cl-grey {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.skill p {
+  font-weight: 600;
+}
+/* Sở thích */
+
+.hobby-list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+  list-style: none;
+  padding-left: 0px;
+  width: 300px;
+  align-items: end;
+  justify-items: center;
+}
+.hobby-list i {
+  color: #0475f7;
+  font-size: 20px;
+  border: 1px solid #0475f7;
+  border-radius: 100%;
+  margin-bottom: 14px;
+}
+
+.ic-megaphone,
+.ic-basket {
+  padding: 15px;
+}
+.ic-strategy {
+  padding: 15px 20px;
+}
+.ic-hotairballoon {
+  padding: 15px 18px;
+}
+
+/* Dự án */
+.header-project span {
+  font-size: 12px;
+  background-color: #0475f7;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+
+/*Footer  */
+#footer {
+  text-align: center;
+  padding: 40px 0;
+}
+#footer li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 70px;
+  position: relative;
+}
+#footer a {
+  text-decoration: none;
+  color: #000;
+}
+#footer i {
+  font-size: 30px;
+  position: absolute;
+  top: -12px;
+  left: -40px;
+}
+
+.view {
+  background-color: #fff;
+  color: #fff;
+  border: 0;
+  margin-bottom: 10px;
+  width: 70%;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.view:hover {
+  background-color: rgba(200, 150, 50, 0.3);
+  color: #000;
+}
+.hidden {
+  display: none;
+}

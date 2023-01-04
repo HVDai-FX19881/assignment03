@@ -1,0 +1,23 @@
+@media only screen and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+  .container-bar {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: start;
+    margin-left: 80px;
+  }
+  .container-bar a {
+    border: none;
+    padding: 15px 0px;
+  }
+  .name {
+    display: none;
+  }
+
+  #border {
+    border-left: none !important;
+    border-top: 1px solid red;
+  }
+}

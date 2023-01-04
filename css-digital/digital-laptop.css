@@ -1,0 +1,23 @@
+body {
+  width: 1400px;
+}
+.border-dashed {
+  border-bottom: 1.5px dashed rgb(0, 89, 255);
+}
+.bg-b {
+  background-color: rgb(232, 253, 246);
+}
+.team,
+.primary {
+  width: 30%;
+}
+.bd {
+  color: #fff;
+  background-color: rgb(182, 137, 253);
+  font-size: 20px;
+  border: 2px solid #000;
+  border-radius: 100%;
+  padding-top: 12px;
+  height: 50px;
+  width: 50px;
+}
